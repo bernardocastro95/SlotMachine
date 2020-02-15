@@ -19,6 +19,7 @@ public:
 	void start() override;
 
 private:
+	
 	SlotMachine* m_pSlotMachine;
 	QuitButton* m_pQuitButton;
 	SpinButton* m_pSpinButton;

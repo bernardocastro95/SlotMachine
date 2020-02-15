@@ -1,5 +1,8 @@
 #include "SlotScene.h"
 #include "SpinButton.h"
+#include "../src/Game.h"
+#include "GLM/gtx/string_cast.hpp"
+#include <SDL_ttf.h>
 
 SlotScene::SlotScene()
 {

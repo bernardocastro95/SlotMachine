@@ -100,12 +100,6 @@ void StartScene::handleEvents()
 // this function is used for initialization
 void StartScene::start()
 {
-	SDL_Color black = { 0, 0, 0, 0 };
-	m_pStartLabel = new Label("SlotMachine", "Dock51", 80, black, 
-		glm::vec2(Config::SCREEN_WIDTH * 0.5f, 100.0f));
-	m_pStartLabel->setParent(this);
-	addChild(m_pStartLabel);
-
 	m_pStartButton = new StartButton();
 	m_pStartButton->setPosition(glm::vec2(Config::SCREEN_WIDTH * 0.5f, Config::SCREEN_HEIGHT * 0.5f));
 	addChild(m_pStartButton);

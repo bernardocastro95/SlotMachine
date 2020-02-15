@@ -12,6 +12,11 @@ public:
 	void draw() override;
 	void update() override;
 	void clean() override;
+
+private:
+	double bet;
+	double initalAmount = 5000;
+	double jackpot = 10000;
 };
 #endif
 
